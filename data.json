@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "a project",
+      "description": "some thing",
+      "technologies": ["array of strings of technologies used in project"],
+      "live_link": "http://hostedongithubpages  OR dantelope",
+      "github_link": "http://github",
+      "image_urls": [
+        "array of strings file paths from views folder to images themselves need main image for landing "
+      ]
+    },
+    {
+      "id": "0",
+      "project_name": "a project",
+      "description": "some thing",
+      "technologies": ["array of strings of technologies used in project"],
+      "live_link": "http://hostedongithubpages  OR dantelope",
+      "github_link": "http://github",
+      "image_urls": [
+        "array of strings file paths from views folder to images themselves need main image for landing "
+      ]
+    },
+    {
+      "id": "0",
+      "project_name": "a project",
+      "description": "some thing",
+      "technologies": ["array of strings of technologies used in project"],
+      "live_link": "http://hostedongithubpages  OR dantelope",
+      "github_link": "http://github",
+      "image_urls": [
+        "array of strings file paths from views folder to images themselves need main image for landing "
+      ]
+    },
+    {
+      "id": "0",
+      "project_name": "a project",
+      "description": "some thing",
+      "technologies": ["array of strings of technologies used in project"],
+      "live_link": "http://hostedongithubpages  OR dantelope",
+      "github_link": "http://github",
+      "image_urls": [
+        "array of strings file paths from views folder to images themselves need main image for landing "
+      ]
+    },
+    {
+      "id": "0",
+      "project_name": "a project",
+      "description": "some thing",
+      "technologies": ["array of strings of technologies used in project"],
+      "live_link": "http://hostedongithubpages  OR dantelope",
+      "github_link": "http://github",
+      "image_urls": [
+        "array of strings file paths from views folder to images themselves need main image for landing "
+      ]
+    },
+    {
+      "id": "0",
+      "project_name": "a project",
+      "description": "some thing",
+      "technologies": ["array of strings of technologies used in project"],
+      "live_link": "http://hostedongithubpages  OR dantelope",
+      "github_link": "http://github",
+      "image_urls": [
+        "array of strings file paths from views folder to images themselves need main image for landing "
+      ]
+    }
+  ]
+}
