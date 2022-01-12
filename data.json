@@ -2,66 +2,55 @@
   "projects": [
     {
       "id": "0",
-      "project_name": "a project",
+      "project_name": "A Random Quote Generator",
       "description": "some thing",
-      "technologies": ["array of strings of technologies used in project"],
+      "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "http://hostedongithubpages  OR dantelope",
-      "github_link": "http://github",
+      "github_link": "https://github.com/dantasyisland/Random-Quote-Generator",
       "image_urls": [
         "array of strings file paths from views folder to images themselves need main image for landing "
       ]
     },
     {
-      "id": "0",
-      "project_name": "a project",
+      "id": "1",
+      "project_name": "Data Pagination and Filtering",
       "description": "some thing",
-      "technologies": ["array of strings of technologies used in project"],
+      "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "http://hostedongithubpages  OR dantelope",
-      "github_link": "http://github",
+      "github_link": "https://github.com/dantasyisland/techdegree-project-2",
       "image_urls": [
         "array of strings file paths from views folder to images themselves need main image for landing "
       ]
     },
     {
-      "id": "0",
-      "project_name": "a project",
+      "id": "2",
+      "project_name": "Interactive Form",
       "description": "some thing",
-      "technologies": ["array of strings of technologies used in project"],
+      "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "http://hostedongithubpages  OR dantelope",
-      "github_link": "http://github",
+      "github_link": "https://github.com/dantasyisland/Interactive-Form",
       "image_urls": [
         "array of strings file paths from views folder to images themselves need main image for landing "
       ]
     },
     {
-      "id": "0",
-      "project_name": "a project",
+      "id": "3",
+      "project_name": "OOP Gameshow App",
       "description": "some thing",
-      "technologies": ["array of strings of technologies used in project"],
+      "technologies": ["HTML", "Object Oriented Javscript", "CSS"],
       "live_link": "http://hostedongithubpages  OR dantelope",
-      "github_link": "http://github",
+      "github_link": "https://github.com/dantasyisland/Team-Treehouse-Unit-4-OOP-Game-Show-App",
       "image_urls": [
         "array of strings file paths from views folder to images themselves need main image for landing "
       ]
     },
     {
-      "id": "0",
-      "project_name": "a project",
+      "id": "4",
+      "project_name": "Public API Request",
       "description": "some thing",
-      "technologies": ["array of strings of technologies used in project"],
+      "technologies": ["HTML", "Javscript", "CSS", "APIs"],
       "live_link": "http://hostedongithubpages  OR dantelope",
-      "github_link": "http://github",
-      "image_urls": [
-        "array of strings file paths from views folder to images themselves need main image for landing "
-      ]
-    },
-    {
-      "id": "0",
-      "project_name": "a project",
-      "description": "some thing",
-      "technologies": ["array of strings of technologies used in project"],
-      "live_link": "http://hostedongithubpages  OR dantelope",
-      "github_link": "http://github",
+      "github_link": "https://github.com/dantasyisland/Public-API-Requests",
       "image_urls": [
         "array of strings file paths from views folder to images themselves need main image for landing "
       ]

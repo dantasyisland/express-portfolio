@@ -3,12 +3,14 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   console.log("Hey you made it!");
-  res.send('WELCOME TO JURASSIC PARK');
+  // res.send('WELCOME TO JURASSIC PARK');
+  res.render("index")
 });
 
 router.get("/about", (req, res) => {
-  console.log("About the about...");
-  res.send('Abouty bouty and rowdy rowdy')
+  // console.log("About the about...");
+  // res.send('Abouty bouty and rowdy rowdy')
+  res.render("about")
 })
 
 router.get("/projects/:id", (req, res) => {
