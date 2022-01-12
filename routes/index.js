@@ -3,16 +3,12 @@ const router = express.Router();
 const data = require('../data.json')
 
 router.get("/", (req, res) => {
-  // res.render("index");
-  console.log("Hey you made it!");
-  // res.send('WELCOME TO JURASSIC PARK');
-  // res.locals = data.projects;
+  res.render("index")
 });
 
 router.get("/about", (req, res) => {
-  // console.log("About the about...");
-  // res.send('Abouty bouty and rowdy rowdy')
-  res.render("about");
+  res.render("about")
+
 })
 
 router.get("/projects/:id", (req, res) => {
