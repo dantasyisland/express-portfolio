@@ -3,7 +3,7 @@ const router = express.Router();
 const data = require('../data.json')
 
 router.get("/", (req, res) => {
-  res.render("index");
+  // res.render("index");
   console.log("Hey you made it!");
   // res.send('WELCOME TO JURASSIC PARK');
   // res.locals = data.projects;
@@ -29,6 +29,5 @@ router.get("/projects/:id", (req, res) => {
 // }
 
 // KickOutTheJams(data);
-
 
 module.exports = router;
