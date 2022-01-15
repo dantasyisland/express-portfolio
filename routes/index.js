@@ -12,9 +12,11 @@ router.get("/about", (req, res) => {
 })
 
 router.get("/projects/:id", (req, res) => {
-  res.send(`${req.params.id}`)
-  console.log(`${req.params.id}`);
-  console.log(`${data}`);
+  console.log(data.projects.length);
+  res.render("project", { data: data.projects, index:req.params.id });
+  // res.send(`${req.params.id}`)
+  // console.log(`${req.params.id}`);
+  // console.log(`${data}`);
 })
 
 

@@ -3,6 +3,12 @@ const app = express();
 const data = require('./data.json');
 const routes = require('./routes/index');
 
+app.use(express.json());
+
+
+app.use('/static', express.static('public'));
+
+app.set('view engine','pug')
 
 
 app.use(routes);
