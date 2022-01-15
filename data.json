@@ -40,9 +40,7 @@
       "technologies": ["HTML", "Object Oriented Javscript", "CSS"],
       "live_link": "http://hostedongithubpages  OR dantelope",
       "github_link": "https://github.com/dantasyisland/Team-Treehouse-Unit-4-OOP-Game-Show-App",
-      "image_urls": [
-        "array of strings file paths from views folder to images themselves need main image for landing "
-      ]
+      "image_urls": ["../static/images/1.png"]
     },
     {
       "id": "4",

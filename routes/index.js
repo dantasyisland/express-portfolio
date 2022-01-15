@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../data.json')
+const {projects} = require('../data.json');
+
+
 
 router.get("/", (req, res) => {
   res.render("index")
@@ -8,15 +10,12 @@ router.get("/", (req, res) => {
 
 router.get("/about", (req, res) => {
   res.render("about")
-
 })
 
 router.get("/projects/:id", (req, res) => {
-  console.log(data.projects.length);
-  res.render("project", { data: data.projects, index:req.params.id });
-  // res.send(`${req.params.id}`)
-  // console.log(`${req.params.id}`);
-  // console.log(`${data}`);
+  const id = req.params.id;
+  const data = {project_name, description,technologies,live_link,github_link,image_urls} = projects[id];
+  res.render("project", { data });
 })
 
 
