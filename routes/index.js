@@ -2,13 +2,9 @@ const express = require('express');
 const router = express.Router();
 const {projects} = require('../data.json');
 
-
-
+// CAN I DESTRUCTURE THIS INTO A SMALLER ARRAY OF JUST WHAT I NEED
 router.get("/", (req, res) => {
   const data = projects;
-  data.forEach(project => {
-    console.log(project.id);
-  })
   res.render("index", {data});
 });
 
