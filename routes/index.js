@@ -5,11 +5,15 @@ const {projects} = require('../data.json');
 
 
 router.get("/", (req, res) => {
-  res.render("index")
+  const data = projects;
+  data.forEach(project => {
+    console.log(project.id);
+  })
+  res.render("index", {data});
 });
 
 router.get("/about", (req, res) => {
-  res.render("about")
+  res.render("about");
 })
 
 router.get("/projects/:id", (req, res) => {
