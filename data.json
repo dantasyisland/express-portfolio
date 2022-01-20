@@ -3,19 +3,19 @@
     {
       "id": "0",
       "project_name": "A Random Quote Generator",
-      "description": "some thing",
+      "description": "A page that will display a random quote to the user.",
       "technologies": ["HTML", "Javscript", "CSS"],
-      "live_link": "https://dantasyisland.github.io/Random-Quote-Generator/",
-      "github_link": "https://github.com/dantasyisland/Random-Quote-Generator",
+      "live_link": "https://dantasyisland.github.io/random-quote-generator/",
+      "github_link": "https://github.com/dantasyisland/random-quote-generator",
       "image_urls": ["../static/images/1.png","../static/images/1.png","../static/images/1.png"]
     },
     {
       "id": "1",
       "project_name": "Data Pagination and Filtering",
-      "description": "some thing",
+      "description": "",
       "technologies": ["HTML", "Javscript", "CSS"],
-      "live_link": "https://dantasyisland.github.io/techdegree-project-2/",
-      "github_link": "https://github.com/dantasyisland/techdegree-project-2",
+      "live_link": "https://dantasyisland.github.io/data-pagination/",
+      "github_link": "https://github.com/dantasyisland/data-pagination",
       "image_urls": ["../static/images/1.png","../static/images/1.png","../static/images/1.png"]
     },
     {
@@ -23,8 +23,8 @@
       "project_name": "Interactive Form",
       "description": "some thing",
       "technologies": ["HTML", "Javscript", "CSS"],
-      "live_link": "https://dantasyisland.github.io/Interactive-Form/",
-      "github_link": "https://github.com/dantasyisland/Interactive-Form",
+      "live_link": "https://dantasyisland.github.io/interactive-form/",
+      "github_link": "https://github.com/dantasyisland/interactive-form",
       "image_urls": ["../static/images/1.png","../static/images/1.png","../static/images/1.png"]
     },
     {
@@ -32,8 +32,8 @@
       "project_name": "OOP Gameshow App",
       "description": "some thing",
       "technologies": ["HTML", "Object Oriented Javscript", "CSS"],
-      "live_link": "https://dantasyisland.github.io/Team-Treehouse-Unit-4-OOP-Game-Show-App/",
-      "github_link": "https://github.com/dantasyisland/Team-Treehouse-Unit-4-OOP-Game-Show-App",
+      "live_link": "https://dantasyisland.github.io/interactive-oop-game/",
+      "github_link": "https://github.com/dantasyisland/interactive-oop-game",
       "image_urls": ["../static/images/1.png","../static/images/1.png","../static/images/1.png"]
     },
     {
@@ -41,8 +41,8 @@
       "project_name": "Public API Request",
       "description": "some thing",
       "technologies": ["HTML", "Javscript", "CSS", "APIs"],
-      "live_link": "hhttps://dantasyisland.github.io/Public-API-Requests/",
-      "github_link": "https://github.com/dantasyisland/Public-API-Requests",
+      "live_link": "https://github.com/dantasyisland/public-api-requests",
+      "github_link": "https://dantasyisland.github.io/public-api-requests/",
       "image_urls": ["../static/images/1.png","../static/images/1.png","../static/images/1.png"]
     }
   ]

@@ -119,7 +119,7 @@ nav a {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: #555;
 }
 
 nav a span {
@@ -263,8 +263,8 @@ nav a span {
 }
 
 
-/* 
-  About and project pages styles 
+/*
+  About and project pages styles
 */
 .about-intro-box p,
 .project-info-box p {
@@ -299,10 +299,36 @@ nav a span {
   background-color: #333;
   border: 1px solid transparent;
 }
+/* Additional CSS For Error Page */
 
+.error {
+  text-rendering: optimizeLegibility;
+  font-size: 150%;
+  margin: 20px 90px;
+  padding: 40px;
+  border: 10px solid #69a5ff8a;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  text-align: center;
 
-/* 
-  Tablet layout styles 
+}
+
+.error p {
+  font-size: 20px;
+}
+
+.error a {
+  color: blue;
+}
+
+.error img {
+  width: 20%;
+  height: 20%;
+}
+
+/*
+  Tablet layout styles
 */
 @media screen and (min-width: 768px) {
   .sidebar h5 {
@@ -341,8 +367,8 @@ nav a span {
 }
 
 
-/* 
-  Desktop layout styles 
+/*
+  Desktop layout styles
 */
 @media screen and (min-width: 1024px) {
   .sidebar {
@@ -362,3 +388,4 @@ nav a span {
     max-width: 1200px;
   }
 }
+
