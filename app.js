@@ -18,9 +18,10 @@ app.use(routes);
 
 app.use((req, res, next) => {
   const error = new Error("Whoopsiedoodle! Looks like you entered an invalid URL");
-  error.status = 400;
+  error.status = 404;
   next(error);
 });
+
 app.use(errorHandler);
 
 
