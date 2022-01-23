@@ -1,8 +1,9 @@
 const express = require("express");
 const app = express();
-const data = require("./data.json");
 const routes = require("./routes/index");
-const errorHandler = require('./errorHandler');
+const data = require("./data.json");
+
+const errorHandler = require("./errorHandler");
 
 /**
  * Sets the view engine to Pug for templating
@@ -14,16 +15,20 @@ app.set("view engine", "pug");
  */
 app.use(express.json());
 app.use("/static", express.static("public"));
-app.use(routes);
+app.use("/", routes);
 
+
+/** Error Handlers */
 app.use((req, res, next) => {
-  const error = new Error("Whoopsiedoodle! Looks like you entered an invalid URL");
-  error.status = 404;
-  next(error);
+  const error = new Error();
+  error.message = `Whoops! Looks like that page doesn't exist`;
+  error.status = "404";
+  res.render("errorPage", {
+    error,
+  });
 });
 
 app.use(errorHandler);
-
 
 /**
  * Starts server
