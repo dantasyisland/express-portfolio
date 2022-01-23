@@ -24,10 +24,10 @@ router.get("/about", (req, res, next) => {
  */
 router.get("/projects/:id", (req, res, next) => {
   const id = parseInt(req.params.id);
+
   if (!projects[id]) {
-    const err = new Error();
-    err.message = `Whoopsidoolde! Looks like that project doesn't exist`;
-    err.status = "401";
+    const err = new Error(`Whoopsidoolde! Looks like that project doesn't exist`);
+    err.status = 401;
     next(err);
   }
   const data = ({

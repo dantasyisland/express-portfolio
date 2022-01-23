@@ -20,11 +20,10 @@ app.use("/", routes);
 
 /** Error Handlers */
 app.use((req, res, next) => {
-  const error = new Error();
-  error.message = `Whoops! Looks like that page doesn't exist`;
-  error.status = "404";
+  const err = new Error(`Whoops! Looks like that page doesn't exist`);
+  err.status = 404;
   res.render("errorPage", {
-    error,
+    err,
   });
 });
 
