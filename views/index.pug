@@ -22,7 +22,7 @@ block content
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
 
-      each project in data.length ? data : ['There are no values']
+      each project in projects.length ? projects : ['There are no values']
         .cell
           a(href=`/projects/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`)
