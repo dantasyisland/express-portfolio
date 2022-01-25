@@ -6,15 +6,15 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/normalize.css')
-    link(rel='stylesheet', href='/static/css/styles.css')
+    link(rel='stylesheet', href='/public/css/normalize.css')
+    link(rel='stylesheet', href='/public/css/styles.css')
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='/static/images/profilepic.jpeg', alt='Picture of Danny Gallegos')
+          img.thumbnail(src='/public/images/profilepic.jpeg', alt='Picture of Danny Gallegos')
         .dev-intro-box
 
           //- Replace with your name
@@ -24,7 +24,7 @@ html(lang="en" dir="ltr")
           p This portfolio is to demonstrate to you, the lovely viewer, my abilities and accomplishments as an ever-learning, ever-growing full stack web developer. I'm available for hire if you are interested. If not, enjoy the show anyway! =^.^=
 
           //- Add path from your '/about' route handler to the href below
-          a(href='../about') Learn More &rarr;
+          a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
@@ -36,4 +36,4 @@ html(lang="en" dir="ltr")
 
       block content
 
-  script(src='/static/js/script.js')
+  script(src='/public/js/script.js')

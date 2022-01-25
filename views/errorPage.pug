@@ -6,12 +6,12 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/normalize.css')
-    link(rel='stylesheet', href='/static/css/styles.css')
+    link(rel='stylesheet', href='/public/css/normalize.css')
+    link(rel='stylesheet', href='/public/css/styles.css')
   body
     .error
       h1 Status Code: #{err.status}
       h3 #{err.message}
       p Go ahead and #[a(href="/") click here] to go home
 
-      img(src="/static/images/shockedcat.jpeg", alt="Picture of cat looking shocked")
+      img(src="/public/images/shockedcat.jpeg", alt="Picture of cat looking shocked")

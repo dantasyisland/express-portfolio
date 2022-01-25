@@ -3,29 +3,29 @@
     {
       "id": "0",
       "project_name": "A Random Quote Generator",
-      "description": "A page that will display a random quote to the user.",
+      "description": "A page that will display a random quote from an array to the user. The user may either press a button or wait for the page to refresh with a new quote automatically.",
       "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "https://dantasyisland.github.io/random-quote-generator/",
       "github_link": "https://github.com/dantasyisland/random-quote-generator",
-      "image_urls": ["/static/images/random-quote-generator-1.png","/static/images/random-quote-generator-2.png"]
+      "image_urls": ["/public/images/random-quote-generator-thumb.png","/public/images/random-quote-generator-1.png","/public/images/random-quote-generator-2.png"]
     },
     {
       "id": "1",
       "project_name": "Data Pagination and Filtering",
-      "description": "",
+      "description": "Dynamic pagination of an array of objects. Buttons will display and update based on the size of the array or results of the user's search.",
       "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "https://dantasyisland.github.io/data-pagination/",
       "github_link": "https://github.com/dantasyisland/data-pagination",
-      "image_urls": ["/static/images/data-pagination-1.png","/static/images/data-pagination-2.png"]
+      "image_urls": ["/public/images/data-pagination-thumb.png","/public/images/data-pagination-1.png","/public/images/data-pagination-2.png"]
     },
     {
       "id": "2",
       "project_name": "Interactive Form",
       "description": "some thing",
-      "technologies": ["HTML", "Javscript", "CSS"],
+      "technologies": ["HTML", "Javscript", "CSS","Accessibility"],
       "live_link": "https://dantasyisland.github.io/interactive-form/",
       "github_link": "https://github.com/dantasyisland/interactive-form",
-      "image_urls": ["/static/images/interactive-form-1.png","../static/images/interactive-form-2.png"]
+      "image_urls": ["/public/images/interactive-form-thumb.png","/public/images/interactive-form-1.png","../public/images/interactive-form-2.png"]
     },
     {
       "id": "3",
@@ -34,16 +34,16 @@
       "technologies": ["HTML", "Object Oriented Javscript", "CSS"],
       "live_link": "https://dantasyisland.github.io/interactive-oop-game/",
       "github_link": "https://github.com/dantasyisland/interactive-oop-game",
-      "image_urls": ["/static/images/interactive-oop-game-1.png","/static/images/interactive-oop-game-2.png"]
+      "image_urls": ["/public/images/interactive-oop-game-thumb.png","/public/images/interactive-oop-game-1.png","/public/images/interactive-oop-game-2.png"]
     },
     {
       "id": "4",
       "project_name": "Public API Request",
       "description": "some thing",
       "technologies": ["HTML", "Javscript", "CSS", "APIs"],
-      "live_link": "https://github.com/dantasyisland/public-api-requests",
-      "github_link": "https://dantasyisland.github.io/public-api-requests/",
-      "image_urls": ["/static/images/public-api-requests-1.png","/static/images/public-api-requests-2.png","/static/images/public-api-requests-3.png","/static/images/public-api-requests-4.png"]
+      "live_link": "https://dantasyisland.github.io/public-api-requests/",
+      "github_link": "https://github.com/dantasyisland/public-api-requests",
+      "image_urls": ["/public/images/public-api-requests-thumb.png","/public/images/public-api-requests-1.png","/public/images/public-api-requests-2.png"]
     }
   ]
 }
