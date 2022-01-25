@@ -1,13 +1,12 @@
 {
-  "projects": [
-    {
+  "projects": [{
       "id": "0",
       "project_name": "A Random Quote Generator",
       "description": "A page that will display a random quote from an array to the user. The user may either press a button or wait for the page to refresh with a new quote automatically.",
       "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "https://dantasyisland.github.io/random-quote-generator/",
       "github_link": "https://github.com/dantasyisland/random-quote-generator",
-      "image_urls": ["/public/images/random-quote-generator-thumb.png","/public/images/random-quote-generator-1.png","/public/images/random-quote-generator-2.png"]
+      "image_urls": ["/public/images/random-quote-generator-thumb.png", "/public/images/random-quote-generator-1.png", "/public/images/random-quote-generator-2.png"]
     },
     {
       "id": "1",
@@ -16,34 +15,34 @@
       "technologies": ["HTML", "Javscript", "CSS"],
       "live_link": "https://dantasyisland.github.io/data-pagination/",
       "github_link": "https://github.com/dantasyisland/data-pagination",
-      "image_urls": ["/public/images/data-pagination-thumb.png","/public/images/data-pagination-1.png","/public/images/data-pagination-2.png"]
+      "image_urls": ["/public/images/data-pagination-thumb.png", "/public/images/data-pagination-1.png", "/public/images/data-pagination-2.png"]
     },
     {
       "id": "2",
       "project_name": "Interactive Form",
-      "description": "some thing",
-      "technologies": ["HTML", "Javscript", "CSS","Accessibility"],
+      "description": "This app adds validation functionality to a registration form for a fictional full stack conference. Validation occurs in realtime based on keyup event handlers for the elements listed below. Criteria for valdiation is also given.",
+      "technologies": ["HTML", "Javscript", "CSS", "Accessibility"],
       "live_link": "https://dantasyisland.github.io/interactive-form/",
       "github_link": "https://github.com/dantasyisland/interactive-form",
-      "image_urls": ["/public/images/interactive-form-thumb.png","/public/images/interactive-form-1.png","../public/images/interactive-form-2.png"]
+      "image_urls": ["/public/images/interactive-form-thumb.png", "/public/images/interactive-form-1.png", "../public/images/interactive-form-2.png"]
     },
     {
       "id": "3",
       "project_name": "OOP Gameshow App",
-      "description": "some thing",
+      "description": "An interactive game hunting for letters to reveal a phrase on the board. User can input via mouse or keyboard.",
       "technologies": ["HTML", "Object Oriented Javscript", "CSS"],
       "live_link": "https://dantasyisland.github.io/interactive-oop-game/",
       "github_link": "https://github.com/dantasyisland/interactive-oop-game",
-      "image_urls": ["/public/images/interactive-oop-game-thumb.png","/public/images/interactive-oop-game-1.png","/public/images/interactive-oop-game-2.png"]
+      "image_urls": ["/public/images/interactive-oop-game-thumb.png", "/public/images/interactive-oop-game-1.png", "/public/images/interactive-oop-game-2.png"]
     },
     {
       "id": "4",
       "project_name": "Public API Request",
-      "description": "some thing",
+      "description": "This project fetches data from the random user API generator and displays information about each on an \"employee\" directory page. Clicking on an employee will generate a modal window displaying more information about that employee. Search filter functionality has also been added.",
       "technologies": ["HTML", "Javscript", "CSS", "APIs"],
       "live_link": "https://dantasyisland.github.io/public-api-requests/",
       "github_link": "https://github.com/dantasyisland/public-api-requests",
-      "image_urls": ["/public/images/public-api-requests-thumb.png","/public/images/public-api-requests-1.png","/public/images/public-api-requests-2.png"]
+      "image_urls": ["/public/images/public-api-requests-thumb.png", "/public/images/public-api-requests-1.png", "/public/images/public-api-requests-2.png"]
     }
   ]
 }
