@@ -38,6 +38,7 @@ router.get("/projects/:id", (req, res, next) => {
     github_link,
     image_urls,
   } = projects[id]);
+
   res.render("project", {
     data,
   });
